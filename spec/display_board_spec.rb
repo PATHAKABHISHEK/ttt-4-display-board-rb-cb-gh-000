@@ -181,7 +181,7 @@ describe "#display_board in 'lib/display_board.rb" do
       board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
       output = capture_puts{ display_board(board) } if defined?(display_board)
       rows = output.split("\n")
-        
+
       # Hint: You should be able to copy the code in the previous it example
       # and make a few simple edits to convert the previous example to this
       # example's situation.
